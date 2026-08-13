@@ -27,12 +27,40 @@ A parameterized Verilog HDL implementation of an AXI4-Lite Slave with Read/Write
 ## Project Structure
 
 ```text
-src/
-├── write_controller.v
-├── read_controller.v
-├── register_file.v
-├── uart_tx.v
-└── uart_rx.v
+AXI4-Lite-UART/
+│
+├── README.md
+│
+├── Documentation/
+│   └── AXI4-Lite Report.pdf
+│
+├── AXI4-Lite/
+│   │
+│   ├── RTL/
+│   │   ├── write_controller.v
+│   │   ├── Read_Controller.v
+│   │   ├── reg_file.v
+│   │   └── top_module.v
+│   │
+│   ├── Testbench/
+│   │   ├── Read_Controller_tb.v
+│   │   ├── reg_file_tb.v
+│   │   └── top_module_tb.v
+│   │
+│   └── Simulation/
+│       ├── run.do
+│       └── wave.do
+│
+└── UART/
+    │
+    ├── RTL/
+    │   ├── uart_tx.v
+    │   └── uart_rx.v
+    │   └── reg_file.v
+    │   └── topmodule.v
+    │
+    └── Testbench/
+        └── register_file_uart_tb.v
 
 ```
 
