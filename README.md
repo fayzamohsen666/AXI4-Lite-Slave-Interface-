@@ -27,7 +27,7 @@ A parameterized Verilog HDL implementation of an AXI4-Lite Slave with Read/Write
 ## Project Structure
 
 ```text
-AXI4-Lite-UART/
+AXI4-Lite-Slave-Interface/
 │
 ├── README.md
 │
