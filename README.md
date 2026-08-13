@@ -1,9 +1,11 @@
 # AXI4-Lite Slave with UART Interface
 
 ## Overview
-Brief description of the project.
+
+A parameterized Verilog HDL implementation of an AXI4-Lite Slave with Read/Write Controllers, a memory-mapped Register File, and UART TX/RX.
 
 ## Architecture
+
 - AXI4-Lite Interface
 - Write Controller
 - Read Controller
@@ -12,6 +14,7 @@ Brief description of the project.
 - UART RX
 
 ## Features
+
 - AXI4-Lite Read/Write transactions
 - Memory-mapped Register File
 - Address decoding and alignment checking
@@ -22,6 +25,7 @@ Brief description of the project.
 - Multi-byte data transmission
 
 ## Project Structure
+
 ```text
 src/
 ├── write_controller.v
