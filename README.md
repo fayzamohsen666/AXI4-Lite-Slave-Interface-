@@ -37,15 +37,16 @@ src/
 tb/
 └── testbench.v
 
-Simulation
+## Simulation
 
 The design was verified using ModelSim.
 
-Implementation
+## Implementation
 
 The RTL design was synthesized and implemented using Xilinx Vivado.
 
-Tools
-Verilog HDL
-ModelSim
-Xilinx Vivado
+## Tools
+
+- Verilog HDL
+- ModelSim
+- Xilinx Vivado
