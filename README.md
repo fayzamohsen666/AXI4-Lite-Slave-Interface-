@@ -1,4 +1,4 @@
-# AXI4-Lite Slave with UART Interface
+# AXI4-Lite-Slave-Interface
 
 ## Overview
 
