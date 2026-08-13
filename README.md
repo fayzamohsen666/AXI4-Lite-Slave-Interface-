@@ -34,8 +34,7 @@ src/
 ├── uart_tx.v
 └── uart_rx.v
 
-tb/
-└── testbench.v
+```
 
 ## Simulation
 
